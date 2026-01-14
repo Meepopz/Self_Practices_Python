@@ -9,7 +9,7 @@ user = input("From 0-100, enter the score you've got: ")
 
 score = int(user)
 
-if score >= 90 and score <= 100: #we used
+if score >= 90 and score <= 100:
     print(f"grade = A")
     print(f"Excellent work")
 elif score >= 80 and score <= 89:
@@ -23,4 +23,5 @@ elif score > 60 and score <= 69:
     print(f"Barely failed, but good enough")
 else:
     print(f"grade = F")
+
     print(f"PAGTUON LAGEH DILI MAG SALIG UG AI")
